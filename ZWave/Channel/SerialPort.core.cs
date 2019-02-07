@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace ZWave.Channel
 {
-#if NETCOREAPP2_0 || NETSTANDARD2_0
+#if NETCOREAPP2_0
     public class SerialPort : ISerialPort
     {
+
         private readonly RJCP.IO.Ports.SerialPortStream _serialPortStream;
 
         public SerialPort(string name)

@@ -18,7 +18,9 @@
   <Import Project="..\ZWave\ZWave.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="SerialPortStream" Version="2.1.4" />
+    <!--
+    <PackageReference Include="SerialPortStream" Version="2.1.4" />-->
+    <PackageReference Include="System.IO.Ports" Version="4.6.0-preview.19073.11" />
   </ItemGroup>
 
 </Project>
